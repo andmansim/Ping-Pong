@@ -52,6 +52,7 @@ def main():
     jugando = True
     while jugando:
         pelota.mover()
+        pelota.rebotar()
 
         ventana.fill(BLANCO)
         ventana.blit(pelota.imagen, (pelota.x, pelota.y))
