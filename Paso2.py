@@ -27,3 +27,6 @@ def mover(self):
 
 #Creación de la pelota
 pelota = PelotaPong("bola_roja.png")
+
+#Mover la pelota
+pelota.mover()
