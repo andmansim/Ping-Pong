@@ -17,3 +17,6 @@ def rebotar(self):
 #Ventana la puntuación de ambos jugadores:
 #Color del texto
 NEGRO = (0, 0, 0)  # Color del texto (RGB)
+
+#Definición del tamaño de fuente
+fuente = pygame.font.Font(None, 60)
