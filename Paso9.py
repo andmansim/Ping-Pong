@@ -20,3 +20,8 @@ NEGRO = (0, 0, 0)  # Color del texto (RGB)
 
 #Definición del tamaño de fuente
 fuente = pygame.font.Font(None, 60)
+
+#Escritura en la pantalla
+texto = f"{pelota.puntuacion} : {pelota.puntuacion_ia}"
+letrero = fuente.render(texto, False, NEGRO)
+ventana.blit(letrero, (VENTANA_HORI / 2 - fuente.size(texto)[0] / 2, 50))
